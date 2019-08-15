@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+LICENSE
+Reveal-README.md
+bower.json
+demo.html
+gruntfile.js
+node_modules/
+package-lock.json
+package.json
+test/
