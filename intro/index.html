@@ -49,15 +49,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 		 Reveal.initialize({
-             chalkboard: { 
-		// optionally load pre-recorded chalkboard drawing from file
-		src: "chalkboard.json",
-	},
 				dependencies: [
 					{ src: '/plugin/markdown/marked.js' },
 					{ src: '/plugin/markdown/markdown.js' },
 					{ src: '/plugin/notes/notes.js', async: true },
-                    { src: '/plugin/chalkboard/chalkboard.js' },
+      
 					{ src: '/plugin/highlight/highlight.js', async: true },
                     { 
     src: '/plugin/external/external.js', 
@@ -66,15 +62,11 @@
     } 
 },
 				],
-             keyboard: {
-	    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-	    66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-	    46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-	     8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-	    68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-	},
+      
 			});
 		</script>
+
+
 
 	</body>
 </html>
