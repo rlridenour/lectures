@@ -55,4 +55,8 @@ text-align: justify;
   justify-content: space-around;
 }
 
-overscroll-behavior: none;
+
+body {
+  margin: 0;
+  overscroll-behavior: none;
+}
